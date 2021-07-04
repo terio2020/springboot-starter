@@ -52,6 +52,20 @@
 			<optional>true</optional>
 			<version>2.5.2</version>
 		</dependency>
+
+		<!--引入freemarker模板依赖-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!--引入thymeleaf模板依赖-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>
